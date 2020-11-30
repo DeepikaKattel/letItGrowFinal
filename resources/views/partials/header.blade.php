@@ -24,7 +24,7 @@
            <!-- <li><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" style="width:200px; height:100px;margin-bottom:30px;background:transparent"></a></li> -->
            <li><a href="{{route('vision')}}"  style="font-size:15px;"><span>Vision</span></a></li>
            <li class="last"><a href="{{route('contact')}}" style="font-size:15px;"><span>Contact</span></a></li>
-           <li class="active"><a href="{{url('/')}}" style="font-size:15px;"><span>Let IT Grow</span></a></li>
+           <li class="active"><a href="{{url('/')}}" style="font-size:15px;"><span>Home</span></a></li>
            <!-- @if (Route::has('login'))
                @auth
                     <li><a href="{{ url('/home') }}"><span>{{Auth::user()->name}}</span></a></li>

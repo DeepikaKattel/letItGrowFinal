@@ -30,18 +30,20 @@
 			</div>
 			<div id="about-us">
 				<article class="post-entry single-post">
-					<div class="wrap-post">
+					<div class="wrap-post" >
 						<div class="entry-header">
-							<h1 class="entry-title">About The Company</h1>
-						</div>
-
-						<div class="entry-content">
+							<h1 class="entry-title">Our Vision</h1>
+						</div>										
+							
+						<div class="entry-content">		
+							<div class="circle"></div>					
 							<div class="excerpt">
-							<p>Let IT grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.
-                             <br>The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs. Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
-                            As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
-
-					    </div>
+							<p>We believe, Technology is made by everybody for everybody. Today, Modern world offers technologies that are affordable to people from all backgrounds and we want to serve people with its benefits. Let IT grow is your solution to the technological advancement you and your business should be experiencing along with the advantage you deserve.<br>
+							We offer our services for all kinds of business as well as individuals who want to make a difference on the work they do. Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization. <br>
+							Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization.<br>We hope to be the ultimate gateway for connecting the Nepali society with the emerging technologies at reasonable and affordable prices.
+							Let IT Grow is a team of enthusiastic young minds that want to make a difference by providing quality IT services to people all over Nepal regardless of where they come from.<br>You dictate, we Create.</p>
+						</div>							
+					</div>
 				</article>
 			</div>
 		</div>
