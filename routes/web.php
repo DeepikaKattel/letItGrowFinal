@@ -26,6 +26,7 @@ Route::get('/wave', [App\Http\Controllers\HomeController::class, 'wave'])->name(
 Route::get('/contact', [App\Http\Controllers\FrontEndController::class, 'contact'])->name('contact');
 Route::post('/contactStore', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact.store');
 Route::get('/vision', [App\Http\Controllers\FrontEndController::class, 'vision'])->name('vision');
+Route::get('/ourTeam', [App\Http\Controllers\FrontEndController::class, 'team'])->name('our team');
 
 Route::resource('career','App\Http\Controllers\CareerController');
 

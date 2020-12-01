@@ -24,6 +24,10 @@ class FrontEndController extends Controller
     {
         return view('vision');
     }
+    public function team()
+    {
+        return view('our team');
+    }
 
     
 

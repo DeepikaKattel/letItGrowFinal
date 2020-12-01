@@ -606,8 +606,8 @@ p{
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
 							<h2 REFL-TEXT="About US">About US</h2>						
 						</div>
-						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px;">					
-							<div class="col-4 wow slideInLeft">
+						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px;justify-content:center">					
+							<div class="col-4 wow slideInLeft" style="left:0%;">
 								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:355px;">
 							</div>
 							<div class="col-8 wow slideInRight" style="padding-left:100px">		
@@ -630,27 +630,27 @@ p{
 							<h2 REFL-TEXT="Services" style="margin-bottom:40px;">Services</h2>
 							<span class="intro">We help your business to step up a notch by making it tech-friendly</span>
 						</div>
-							<div class="content wow slideInLeft" data-wow-delay=".1s" data-wow-duration="1s">
+							<div class="content" data-wow-delay=".1s" data-wow-duration="1s">
 								<div class="row" style="justify-content:center">								
-									<div class="wrapper">
+									<div class="wrapper wow slideInLeft">
 										<div class="card" style="background: url('/images/webDevelopment.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
 											</div>
 											<div class="right" style="background: url('/images/webDevelopment.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder">Web Development</h1>											
-												<button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</a></button>
+												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>										
+
 											</div>
 										</div>										
 									</div>
-									<div class="wrapper">
+									<div class="wrapper wow slideInTop">
 										<div class="card" style="background: url('/images/webDesign.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
 											</div>
 											<div class="right" style="background: url('/images/webDesign.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder">Web Design</h1>											
-												<button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</acosh></button>
+												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>											
+												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</></button> -->
 											</div>
 										</div>
 										<!-- <div class="img-wrapper">
@@ -658,14 +658,14 @@ p{
 											<!-- <img src="{{asset('images/logo.png')}}" alt=''>    
 										</div> -->
 									</div>
-									<div class="wrapper">
+									<div class="wrapper wow slideInRight">
 										<div class="card" style="background: url('/images/mobileApplication.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
 											</div>
 											<div class="right" style="background: url('/images/mobileApplication.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder">Mobile Application</h1>											
-												<button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</a></button>
+												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>											
+												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</a></button> -->
 											</div>
 										</div>
 										<!-- <div class="img-wrapper">
@@ -780,9 +780,9 @@ p{
 					</div>
 				</div>
 			</section> -->
-			<section class="content-box box-3 box-style-1" id="team">	
+			<!-- <section class="content-box box-3 box-style-1" id="team">	
 				<div class="zerogrid">
-					<div class="wrap-box"><!--Start Box-->
+					<div class="wrap-box">Start Box
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
 							<h2 REFL-TEXT="Our Team">Our Team</h2>						
 						</div>
@@ -800,7 +800,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> 
 												<li><a href="#" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -819,7 +819,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> 
 												<li><a href="https://np.linkedin.com/in/shalabh-adhikari" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -829,15 +829,15 @@ p{
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team node">
 											<div class="pic wow slideInRight">
-												<h3 class="title">Prashant Thapa</h3>
-												<span class="post">Web Designer</span>												
-												<img src="{{asset('images/prashant.PNG')}}">
+												<h3 class="title">Bharat Phuyal</h3>
+												<span class="post">Administrative Executive</span>												
+												<img src="{{asset('images/bharat.jpg')}}">
 											
 											
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> 
 												<li><a href="#" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -854,7 +854,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li>
 												<li><a href="#" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -872,8 +872,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="#" class="fa fa-linkedin"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li> 												<li><a href="#" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
 										</div>
@@ -891,7 +890,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li>
 												<li><a href="https://www.linkedin.com/in/deepika-kattel-3236011b0/" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -909,7 +908,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> 
 												<li><a href="https://www.linkedin.com/in/sandeep-bajracharya-242352194/" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -926,7 +925,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li>
 												<li><a href="https://www.linkedin.com/in/bivisha-karki-9a31ab175" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -943,7 +942,7 @@ p{
 											<ul class="social">
 												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> 
 												<li><a href="https://www.linkedin.com/in/nitesh-manandhar-895947178/" class="fa fa-linkedin"></a></li>
 											</ul>
 											</div>
@@ -957,7 +956,7 @@ p{
 					</div>
 				</div>
 			</section>
-		
+					-->
 
 			<!-----------------content-box-7-------------------->
 			<section class="content-box box-7">				

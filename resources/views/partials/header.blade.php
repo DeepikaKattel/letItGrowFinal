@@ -19,11 +19,13 @@
                  </li>
               </ul>
            </li>--}}
-           <!-- <li><a href="#about"><span>about</span></a></li> -->
+           
            <li><a href="{{route('career.index')}}" style="font-size:15px;"><span>Career</span></a></li>
            <!-- <li><a href="{{url('/')}}"><img src="{{asset('images/logo.png')}}" style="width:200px; height:100px;margin-bottom:30px;background:transparent"></a></li> -->
-           <li><a href="{{route('vision')}}"  style="font-size:15px;"><span>Vision</span></a></li>
            <li class="last"><a href="{{route('contact')}}" style="font-size:15px;"><span>Contact</span></a></li>
+           <li><a href="{{route('vision')}}"  style="font-size:15px;"><span>Vision</span></a></li>
+           <!-- <li><a href="#services" style="font-size:15px;"><span>Services</span></a></li> -->
+           <li><a href="{{route('our team')}}" style="font-size:15px;"><span>Our Team</span></a></li>
            <li class="active"><a href="{{url('/')}}" style="font-size:15px;"><span>Home</span></a></li>
            <!-- @if (Route::has('login'))
                @auth
