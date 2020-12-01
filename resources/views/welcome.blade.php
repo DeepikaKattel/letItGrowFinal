@@ -194,16 +194,16 @@
 }
 .our-team .social li a{
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    line-height:35px;
-    background: #7740ff;
-    font-size: 15px;
+    line-height:25px;
+    background: #0e76a8;
+    font-size: 14px;
     color: #fff;
 }
 .our-team .social li a:hover{
-    background: #ff595e;
+    background: black;
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
@@ -795,14 +795,15 @@ p{
 												<h3 class="title" >Tribhuwan Kushwaha</h3>
 												<span class="post">Software Consultant</span>												
 												<img src="{{asset('images/tribhuwan.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
 												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+											</ul>
+											</div>
 										</div>
 									</div>
 									
@@ -813,14 +814,15 @@ p{
 												<h3 class="title">Salabh Adhikari</h3>
 												<span class="post">Full Stack Developer</span>												
 												<img src="{{asset('images/shalabh.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="https://np.linkedin.com/in/shalabh-adhikari" class="fa fa-linkedin"></a></li>
+											</ul>
+											</div>
 										</div>
 									</div>	
 								
@@ -830,14 +832,15 @@ p{
 												<h3 class="title">Prashant Thapa</h3>
 												<span class="post">Web Designer</span>												
 												<img src="{{asset('images/prashant.PNG')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
 												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+											</ul>
+											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
@@ -846,14 +849,15 @@ p{
 												<h3 class="title">Sujit Maharjaan</h3>
 												<span class="post">Full Stack Developer</span>												
 												<img src="{{asset('images/sujit.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
 												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+											</ul>
+											</div>
 										</div>
 									</div>	
 								
@@ -863,14 +867,15 @@ p{
 												<h3 class="title">Nikita Niraula</h3>
 												<span class="post">Graphics Designer</span>												
 												<img src="{{asset('images/nikita.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
 												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+											</ul>
+											</div>
 										</div>
 									</div>		
 								
@@ -881,14 +886,15 @@ p{
 												<h3 class="title">Deepika Kattel</h3>
 												<span class="post">Software Developer</span>												
 												<img src="{{asset('images/deepika.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="https://www.linkedin.com/in/deepika-kattel-3236011b0/" class="fa fa-linkedin"></a></li>
+											</ul>
+											</div>
 										</div>
 									</div>	
 									
@@ -898,14 +904,15 @@ p{
 												<h3 class="title">Sandeep Bajracharya</h3>
 												<span class="post">Software Developer</span>												
 												<img src="{{asset('images/sandeep.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="https://www.linkedin.com/in/sandeep-bajracharya-242352194/" class="fa fa-linkedin"></a></li>
+											</ul>
+											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
@@ -914,14 +921,15 @@ p{
 												<h3 class="title">Bivisha Karki</h3>
 												<span class="post">Software Developer</span>												
 												<img src="{{asset('images/bivisha.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="https://www.linkedin.com/in/bivisha-karki-9a31ab175" class="fa fa-linkedin"></a></li>
+											</ul>
+											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
@@ -930,14 +938,15 @@ p{
 												<h3 class="title">Nitesh Manandhar</h3>
 												<span class="post">Software Developer</span>												
 												<img src="{{asset('images/nitesh.jpg')}}">
-											</div>
 											
-											<!-- <ul class="social">
-												<li><a href="#" class="fa fa-facebook"></a></li>
+											
+											<ul class="social">
+												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li>
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul> -->
+												<li><a href="#" class="fa fa-google-plus"></a></li> -->
+												<li><a href="https://www.linkedin.com/in/nitesh-manandhar-895947178/" class="fa fa-linkedin"></a></li>
+											</ul>
+											</div>
 										</div>
 									</div>					
 									
@@ -1084,7 +1093,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 			}
 		})
 	})
-	</script>
+</script>
 </div>
 </body>
 </html>
