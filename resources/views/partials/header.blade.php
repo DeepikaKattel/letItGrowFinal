@@ -2,7 +2,7 @@
 <!---Top Menu--->
     <div id="cssmenu" >    
         <ul>           
-        <img src="{{asset('images/logo_original.png')}}">
+        <img src="{{asset('images/logo_original2.png')}}">
            {{--<li class="has-sub"><a href="#"><span>Category</span></a>
               <ul >
                  <li class="has-sub"><a href="#"><span>Item 1</span></a>

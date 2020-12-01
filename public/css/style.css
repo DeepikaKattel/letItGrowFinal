@@ -543,10 +543,10 @@ header .wrap-header {
     width: 200px;
     height: 200px;
     background: url("../images/vision.jpg");
-    border-radius: 50%;
+    /* border-radius: 50%; */
     float: left;
-    shape-outside: circle();
-    margin: 60px 30px 30px 0;
+    /* shape-outside: circle(); */
+    margin: 30px 30px 20px 0;
 }
 @media (max-width: 992px) {
     .main-header .hero-lead {

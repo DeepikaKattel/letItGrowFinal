@@ -479,12 +479,7 @@ h2:before{
 	z-index:1;
 	margin-bottom:10px;
 }
-@media only screen and (max-width: 1200px){
-	#services h2:before{
-		right:32%;
-		left:0%;
-	}
-}
+
 
 @media only screen and (max-width: 767px){
     .our-team{ overflow: hidden; padding-right:20px; }
@@ -492,7 +487,7 @@ h2:before{
 		left:100px;	
 	}
 	#services h2:before{
-		left:40px;
+		left:90px;
 	}
 	#team h2:before{
 		left:100px;
@@ -504,7 +499,7 @@ h2:before{
 		left:50px;	
 	}
 	#services h2:before{
-		left:15px;
+		left:50px;
 	}
 	#team h2:before{
 		left:70px;
@@ -512,10 +507,10 @@ h2:before{
 }
 
 #about h2:before{
-	right:40%;	
+	right:36%;	
 }
 #services h2:before{
-	right:35%;
+	right:37%;
 }
 #team h2:before{
 	right:35%;
@@ -609,7 +604,7 @@ p{
 				<div class="zerogrid">
 					<div class="wrap-box"><!--Start Box-->
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
-							<h2 REFL-TEXT="About">About</h2>						
+							<h2 REFL-TEXT="About US">About US</h2>						
 						</div>
 						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px;">					
 							<div class="col-4 wow slideInLeft">
@@ -632,7 +627,7 @@ p{
 				<div class="zerogrid-fluid">
 					<div class="wrap-box">									
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
-							<h2 REFL-TEXT="Our Services" style="margin-bottom:40px;">Our Services</h2>
+							<h2 REFL-TEXT="Services" style="margin-bottom:40px;">Services</h2>
 							<span class="intro">We help your business to step up a notch by making it tech-friendly</span>
 						</div>
 							<div class="content wow slideInLeft" data-wow-delay=".1s" data-wow-duration="1s">
@@ -799,7 +794,7 @@ p{
 											<div class="pic wow slideInRight">
 												<h3 class="title" >Tribhuwan Kushwaha</h3>
 												<span class="post">Software Consultant</span>												
-												<img src="{{asset('images/tribhuwan.PNG')}}">
+												<img src="{{asset('images/tribhuwan.jpg')}}">
 											</div>
 											
 											<!-- <ul class="social">
@@ -816,8 +811,8 @@ p{
 										<div class="our-team node">
 											<div class="pic wow slideInRight">
 												<h3 class="title">Salabh Adhikari</h3>
-												<span class="post">Application Developer</span>												
-												<img src="{{asset('images/salabh.PNG')}}">
+												<span class="post">Full Stack Developer</span>												
+												<img src="{{asset('images/shalabh.jpg')}}">
 											</div>
 											
 											<!-- <ul class="social">
@@ -844,9 +839,42 @@ p{
 												<li><a href="#" class="fa fa-linkedin"></a></li>
 											</ul> -->
 										</div>
+									</div>
+									<div class="col-md-4 col-sm-6">
+										<div class="our-team node">
+											<div class="pic wow slideInRight">
+												<h3 class="title">Sujit Maharjaan</h3>
+												<span class="post">Full Stack Developer</span>												
+												<img src="{{asset('images/sujit.jpg')}}">
+											</div>
+											
+											<!-- <ul class="social">
+												<li><a href="#" class="fa fa-facebook"></a></li>
+												<li><a href="#" class="fa fa-twitter"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-linkedin"></a></li>
+											</ul> -->
+										</div>
 									</div>	
-								</div>
-								<div class="row">		
+								
+									<div class="col-md-4 col-sm-6">
+										<div class="our-team node">
+											<div class="pic wow slideInRight">
+												<h3 class="title">Nikita Niraula</h3>
+												<span class="post">Graphics Designer</span>												
+												<img src="{{asset('images/nikita.jpg')}}">
+											</div>
+											
+											<!-- <ul class="social">
+												<li><a href="#" class="fa fa-facebook"></a></li>
+												<li><a href="#" class="fa fa-twitter"></a></li>
+												<li><a href="#" class="fa fa-google-plus"></a></li>
+												<li><a href="#" class="fa fa-linkedin"></a></li>
+											</ul> -->
+										</div>
+									</div>		
+								
+										
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team">
 											<div class="pic wow slideInRight">
