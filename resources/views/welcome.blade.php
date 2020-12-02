@@ -507,21 +507,23 @@ h2:before{
 }
 
 #about h2:before{
-	right:36%;	
+	right:38%;	
 }
 #services h2:before{
-	right:37%;
+	right:40%;
 }
 #team h2:before{
 	right:35%;
 } 
-p{
-	font-family:system-ui;
-	line-height:30px;
-	font-family:system-ui;
-	line-height:30px;
-	font-size:20px;
+p{	
+	
+	font-family:'Nunito', sans-serif;
+	line-height:25px;
+	font-size:16px;
 	text-align:justify;
+}
+body{	
+	font-family:'Nunito', sans-serif;	
 }
 
 
@@ -606,16 +608,15 @@ p{
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
 							<h2 REFL-TEXT="About US">About US</h2>						
 						</div>
-						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px;justify-content:center">					
+						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px">					
 							<div class="col-4 wow slideInLeft" style="left:0%;">
-								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:355px;">
+								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:285px;">
 							</div>
-							<div class="col-8 wow slideInRight" style="padding-left:100px">		
+							<div class="col-8 wow slideInRight" style="box-shadow: rgba(0, 0, 0, 0.7) 3px 3px 3px 1px;">		
 								<div class="entry-content">									
 									<div class="excerpt">
-									<p>Let IT grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.
-										<br>The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs. Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
-									As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
+									<p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
+										<br><br>As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
 								</div>
 							</div>						
 								
@@ -998,7 +999,7 @@ p{
 										</div>
 										<div class="sm-2-3 t-left-sm">
 											<h3>Email</h3>
-											<p><span>Email One :</span> info@letitgrownepal.com </p>
+											<p><span>Email:</span> info@letitgrownepal.com </p>
 										</div>
 									</div>
 								</div>

@@ -18,6 +18,7 @@ class CreateAdminCareersTable extends Migration
             $table->string('department');
             $table->string('designation');
             $table->longText('job_description');
+            $table->longText('major_skills');
             $table->integer('vacancyNumber');
             $table->timestamps();
         });

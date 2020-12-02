@@ -49,6 +49,10 @@
                     <textarea class="form-control" id="job_description" name="job_description" placeholder="Enter Job Description"></textarea>
                   </div>
                   <div class="form-group">
+                    <label for="department">Job Level</label>
+                    <textarea class="form-control" id="major_skills" name="major_skills" placeholder="Enter Major Skills"></textarea>
+                  </div>
+                  <div class="form-group">
                     <label for="vacancyNumber">Vacancy Number</label>
                     <input type="number" class="form-control" id="vacancyNumber" name="vacancyNumber" placeholder="Enter Vacancy Number">
                   </div>

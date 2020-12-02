@@ -106,7 +106,7 @@
 			var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 			var footerHeight = $('#page-footer').outerHeight();
 			if (width >= '768') { 
-				$('#page-content').css({'marginBottom': footerHeight + 'px'});
+				$('#page-content').css({'marginBottom': '30px'});
 			}else{
 				$('#page-content').css({'marginBottom': '0px'});
 			}

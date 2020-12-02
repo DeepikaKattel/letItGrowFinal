@@ -37,6 +37,7 @@
                       <th>Department</th>
                       <th>Designation</th>
                       <th>Job Description</th>
+                      <th>Job Level</th>
                       <th>Vacancy Number</th>
                       <th>Action</th>
                     </tr>
@@ -48,6 +49,7 @@
                            <td>{{$c->department}}</td>
                            <td>{{$c->designation}}</td>
                            <td>{{$c->job_description}}</td>
+                           <td>{{$c->major_skills}}</td>
                            <td>{{$c->vacancyNumber}}</td>                           
                            <td id="none">
                                <a href="{{route('adminCareer.edit',$c->id)}}"><i class="fa fa-lg fa-edit"></i></a>
@@ -63,6 +65,7 @@
                       <th>Department</th>
                       <th>Designation</th>
                       <th>Job Description</th>
+                      <th>Job Level</th>
                       <th>Vacancy Number</th>
                       <th>Action</th>
                     </tr>

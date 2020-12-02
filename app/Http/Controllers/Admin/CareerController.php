@@ -41,7 +41,8 @@ class CareerController extends Controller
         $career = new AdminCareer();
         $career->department = request('department');
         $career->designation = request('designation'); 
-        $career->job_description = request('job_description'); 
+        $career->job_description = request('job_description');
+        $career->major_skills = request('major_skills');  
         $career->vacancyNumber = request('vacancyNumber');      
         $career->save();
         $careerSave = $career->save();
@@ -87,7 +88,8 @@ class CareerController extends Controller
         $career = AdminCareer::find($id);
         $career->department = request('department');
         $career->designation = request('designation'); 
-        $career->job_description = request('job_description'); 
+        $career->job_description = request('job_description');
+        $career->major_skills = request('major_skills');  
         $career->vacancyNumber = request('vacancyNumber');      
         $career->save();
         $careerSave = $career->save();

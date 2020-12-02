@@ -10,6 +10,6 @@ class AdminCareer extends Model
     use HasFactory;
     protected $table = 'admin_careers';
     protected $fillable = [
-        'department', 'designation', 'job_description', 'vacancyNumber'
+        'department', 'designation', 'job_description','major_skills', 'vacancyNumber'
     ];
 }

@@ -120,6 +120,13 @@
 @media only screen and (max-width: 767px){
     .our-team{ overflow: hidden; }
 }
+img {
+    transform-origin: top right;
+    transition: transform 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition-delay: 100ms;
+    transform: translateX(21%) rotateZ(0deg) skewX(0deg);
+    pointer-events: none;
+}
 </style>
 	<!--////////////////////////////////////Header-->
 	<header>
@@ -254,7 +261,7 @@
 										<div class="our-team">
 											<div class="pic wow slideInRight">
 												<h3 class="title">Deepika Kattel</h3>
-												<span class="post">Software Developer</span>												
+												<span class="post">Web Application Developer</span>												
 												<img src="{{asset('images/deepika.jpg')}}">
 											
 											
@@ -272,7 +279,7 @@
 										<div class="our-team">
 											<div class="pic wow slideInRight">
 												<h3 class="title">Sandeep Bajracharya</h3>
-												<span class="post">Software Developer</span>												
+												<span class="post">React JS Developer</span>												
 												<img src="{{asset('images/sandeep.jpg')}}">											
 											
 											<ul class="social">
@@ -288,7 +295,7 @@
 										<div class="our-team">
 											<div class="pic wow slideInRight">
 												<h3 class="title">Bivisha Karki</h3>
-												<span class="post">Software Developer</span>												
+												<span class="post">Mobile Application Developer</span>												
 												<img src="{{asset('images/bivisha.jpg')}}">
 											
 											
@@ -305,7 +312,7 @@
 										<div class="our-team">
 											<div class="pic wow slideInRight">
 												<h3 class="title">Nitesh Manandhar</h3>
-												<span class="post">Software Developer</span>												
+												<span class="post">Node JS Developer</span>												
 												<img src="{{asset('images/nitesh.jpg')}}">
 											
 											

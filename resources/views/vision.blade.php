@@ -35,13 +35,13 @@
 							<h1 class="entry-title">Our Vision</h1>
 						</div>										
 							
-						<div class="entry-content">		
-							<div class="circle"></div>					
-							<div class="excerpt">
+						<div class="entry-content"  style="box-shadow: rgba(0, 0, 0, 0.7) 5px 5px 5px 2px;">		
+							<!-- <div class="circle"></div>					 -->
+							<div class="excerpt" >
 							<p>We believe, Technology is made by everybody for everybody. Today, Modern world offers technologies that are affordable to people from all backgrounds and we want to serve people with its benefits. Let IT grow is your solution to the technological advancement you and your business should be experiencing along with the advantage you deserve.<br>
-							We offer our services for all kinds of business as well as individuals who want to make a difference on the work they do. Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization. <br>
-							Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization.<br>We hope to be the ultimate gateway for connecting the Nepali society with the emerging technologies at reasonable and affordable prices.
-							Let IT Grow is a team of enthusiastic young minds that want to make a difference by providing quality IT services to people all over Nepal regardless of where they come from.<br>You dictate, we Create.</p>
+							<br>We offer our services for all kinds of business as well as individuals who want to make a difference on the work they do. Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization. <br>
+							<br>Our IT services are sure to benefit people from all backgrounds that want to use IT to grow their business. On times, where time and tides wait for none, we aim to bridge the gap between fast changing technology and Nepali Society. With an extremely creative team, we constantly see ourselves generating and implementing revolutionary ideas that aim to benefit the society as well as the organization.<br>We hope to be the ultimate gateway for connecting the Nepali society with the emerging technologies at reasonable and affordable prices.
+							<br>Let IT Grow is a team of enthusiastic young minds that want to make a difference by providing quality IT services to people all over Nepal regardless of where they come from.<br>You dictate, we Create.</p>
 						</div>							
 					</div>
 				</article>

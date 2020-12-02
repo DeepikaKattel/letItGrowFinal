@@ -58,13 +58,23 @@
                         </div>
                     @endif
                     <table id="example1" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Department</th>
+                            <th>Designation</th>
+                            <th>Job Level</th>
+                            <th>Vacancy Number</th>
+                            <th>View</th>
+                        </tr>
+                    </thead>
                     <tbody>
                     @foreach($adminCareer as $c)
                         <tr>                           
                             <td>{{$loop->iteration}}</td>
                             <td>{{$c->department}}</td>
                             <td>{{$c->designation}}</td>
-                            <td>{!!$c->job_description!!}</td>
+                            <td>{!!$c->major_skills!!}</td>
                             <td>{{$c->vacancyNumber}}</td>
                             <td id="none">
                                 <a href="{{route('career.edit',$c->id)}}"><i class="fa fa-lg fa-book"></i></a>
@@ -72,16 +82,7 @@
                         </tr>
                     @endforeach
                     </tbody>
-                    <tfoot>
-                        <tr>
-                            <th>SN</th>
-                            <th>Department</th>
-                            <th>Designation</th>
-                            <th>Job Description</th>
-                            <th>Vacancy Number</th>
-                            <th>View</th>
-                        </tr>
-                    </tfoot>
+                    
                     </table>
                 </div>
                 <!-- /.card-body -->

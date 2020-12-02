@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $about = DB::table('abouts')->get();
+    return view('welcome', compact('about'));
 });
 
 Auth::routes();
