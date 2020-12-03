@@ -14,7 +14,7 @@
 
     <!-- Mobile Specific Metas
   ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=0.4">
+  <meta name="viewport" content="target-densitydpi=medium-dpi, user-scalable=no, initial-scale=1.0, minimum-scale=0.5, width=device-width" />
 
     <!-- CSS
   ================================================== -->
@@ -210,6 +210,18 @@
 }
 @media only screen and (max-width: 767px){
     .our-team{ overflow: hidden; }
+}
+@media only screen and (max-width: 750px) {
+    body {
+        /* transform: scale(0.67); */
+        display: inline-block;
+        vertical-align: top;
+    }
+    .wrapper .card > div {
+        vertical-align: top;
+        width: 100%;
+        height: 100%;
+    }
 }
 	
 
@@ -481,13 +493,18 @@ h2:before{
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 867px){
     .our-team{ overflow: hidden; padding-right:20px; }
 	#about h2:before{
-		left:100px;	
+		left:20px;	
+		width:100%;
+	}
+	#about .entry-content{
+		box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 0px 0px;
 	}
 	#services h2:before{
-		left:90px;
+		left:10px;
+		width:100%
 	}
 	#team h2:before{
 		left:100px;
@@ -496,10 +513,10 @@ h2:before{
 @media only screen and (max-width: 400px){
     .our-team{ overflow: hidden; padding-right:20px;}
 	#about h2:before{
-		left:50px;	
+		left:10px;	
 	}
 	#services h2:before{
-		left:50px;
+		left:10px;
 	}
 	#team h2:before{
 		left:70px;
@@ -547,11 +564,11 @@ body{
                         <div class="hero-content">
                             <!-- <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s" >We build designs from your imagination</h4> -->                            
                             <!-- <img src="{{asset('images/logo.png')}}"class="wow fadeIn"style="height:200px;width:500px;box-shadow:2px 2px 2px 2px"/> -->
-							<div class="img-wrapper" style="margin-top:250px;margin-right:300px;">
+							
 								<h1 class="hero-lead wow slideInLeft" data-wow-duration="1.5s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;"> <canvas id="myCanvas" style="margin-top:0px"></canvas>Let <span style="color:white">IT</span>Grow</h1>
 								
 								<!-- <img src="{{asset('images/logo.png')}}" alt='' style="margin-bottom:600px;margin-left:500px;"> -->
-							</div>   
+							   
                             
                             <!-- <a href="{{asset('about')}}" class="button button-skin wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Read More</a> -->
                         </div>
@@ -583,7 +600,7 @@ body{
                     </div> -->
                     <!---Scroller--->                    
                     <div id="scroll-page-content">
-                        <a href="#menu" class="scroller">
+                        <a href="#page-content" class="scroller">
                             <span class="scroller-text">scroll down</span>
                             <div class="scroller-button">
                                 <i class="fa fa-angle-double-down"></i>
@@ -608,15 +625,17 @@ body{
 						<div class="header wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
 							<h2 REFL-TEXT="About US">About US</h2>						
 						</div>
-						<div class="row content " data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px">					
-							<div class="col-4 wow slideInLeft" style="left:0%;">
-								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:285px;">
+						<div class="row content" data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px">					
+							<div class="col-lg-4 col-12 wow slideInLeft mt-5 mb-2" style="left:0%;">
+								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:350px;">
 							</div>
-							<div class="col-8 wow slideInRight" style="box-shadow: rgba(0, 0, 0, 0.7) 3px 3px 3px 1px;">		
-								<div class="entry-content">									
+							<div class="col-lg-8 col-12 mt-5 mb-2 wow slideInRight" >		
+								<div class="entry-content" style="box-shadow: rgba(0, 0, 0, 0.7) 3px 3px 10px 1px;padding:20px;">									
 									<div class="excerpt">
-									<p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
-										<br><br>As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
+										<p>Let IT Grow Pvt. Ltd. is a company growing in the field of information technology. The organization is a team of driven young and experienced minds that are passionate to provide utmost customer satisfaction in terms of product and service delivery.<br><br>The company mostly undertakes project-based business and primarily focuses on providing software-based services to its customers. However, it serves clients with system related services as well as other related needs.Apart from serving for commercial needs, Let IT grow also provides professional training to freshers/individuals and prepare them for the outer world exposure on the related field.
+											<br><br>As the name suggests, we aim to maximize the market potential in IT by providing excellent products and services in the related field along with generating skillful manpower.</p>
+								
+									</div>
 								</div>
 							</div>						
 								
@@ -633,7 +652,7 @@ body{
 						</div>
 							<div class="content" data-wow-delay=".1s" data-wow-duration="1s">
 								<div class="row" style="justify-content:center">								
-									<div class="wrapper wow slideInLeft">
+									<div class="wrapper col-lg-4 col-12 wow slideInLeft">
 										<div class="card" style="background: url('/images/webDevelopment.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
@@ -644,7 +663,7 @@ body{
 											</div>
 										</div>										
 									</div>
-									<div class="wrapper wow slideInTop">
+									<div class="wrapper col-lg-4 col-12 wow slideInTop">
 										<div class="card" style="background: url('/images/webDesign.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
@@ -659,7 +678,7 @@ body{
 											<!-- <img src="{{asset('images/logo.png')}}" alt=''>    
 										</div> -->
 									</div>
-									<div class="wrapper wow slideInRight">
+									<div class="wrapper col-lg-4 col-12 wow slideInRight">
 										<div class="card" style="background: url('/images/mobileApplication.jpg') 320px 450px;">
 											<div class="front">
 												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
@@ -963,43 +982,42 @@ body{
 			<section class="content-box box-7">				
 				<div class="zerogrid-fluid">
 					<div class="wrap-box"><!--Start Box-->
-						<div class="content wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">
-							
-							<div class="md-1-3">
+						<div class="content wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">							
+							<div class="col-lg-4 col-12">
 								<div class="wrap-col">
 									<div class="row">
-										<div class="sm-1-3">
+										<div class="sm-2-4">
 											<i class="fa fa-map-marker"></i>
 										</div>
-										<div class="sm-2-3 t-left-sm">
+										<div class="sm-2-4 t-left-sm">
 											<h3>Address</h3>
 											<p>Pulchowk, Lalitpur</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="md-1-3">
+							<div class="col-lg-4 col-12">
 								<div class="wrap-col">
 									<div class="row">
-										<div class="sm-1-3">
+										<div class="sm-2-4">
 											<i class="fa fa-phone"></i>
 										</div>
-										<div class="sm-2-3 t-left-sm">
+										<div class="sm-2-4 t-left-sm">
 											<h3>Phone</h3>
 											<p>01-5901614</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="md-1-3">
+							<div class="col-lg-4 col-12">
 								<div class="wrap-col">
 									<div class="row">
-										<div class="sm-1-3">
+										<div class="sm-2-4">
 											<i class="fa fa-envelope"></i>
 										</div>
-										<div class="sm-2-3 t-left-sm">
+										<div class="sm-2-4 t-left-sm">
 											<h3>Email</h3>
-											<p><span>Email:</span> info@letitgrownepal.com </p>
+											<p>info@letitgrownepal.com </p>
 										</div>
 									</div>
 								</div>
@@ -1085,11 +1103,14 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 		$(window).scroll(function(){
 			var scroll = $(window).scrollTop();
 			if (scroll > 300) {
-				$(".navbar").css("background" , "rgb(17, 100, 102, 0.6)");
+				// $(".navbar").css("background" , "rgb(17, 100, 102, 0.6)");
+				$(".navbar").css("background" , "white");
+				$("#menu #cssmenu a").css("color" , "#116466");
 			}
 
 			else if(scroll < 300){
-				$(".navbar").css("background" , "transparent");  	
+				$(".navbar").css("background" , "transparent");
+				$("#menu #cssmenu a").css("color" , "white");  	
 			}
 		})
 	})

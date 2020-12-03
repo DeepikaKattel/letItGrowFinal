@@ -48,7 +48,7 @@
           if ($( window ).width() > 768) {
             cssmenu.find('ul').show();
           }
-
+                    
           if ($(window).width() <= 768) {
             cssmenu.find('ul').hide().removeClass('open');
           }

@@ -23,7 +23,7 @@
     padding: 0;
     border: 0;
     list-style: none;
-    line-height: 1.6;
+    line-height: 1.8;
     height: 60px;
     display: block;
     position: relative;
@@ -48,11 +48,13 @@
     font-family: Nunito, sans-serif;
     background: #116466;
     font-size: 10px;
-    height: 78px;
+    height: 72px;
+    align-items: center;
 }
 #cssmenu > ul > li {
     float: right;
     right: 0%;
+    align-items: center;
 }
 #cssmenu.align-center > ul {
     font-size: 0;
@@ -78,7 +80,7 @@
     text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-    color: #ffffff;
+    color: black;
 }
 #cssmenu > ul > li.has-sub > a {
     padding-right: 20px;
@@ -219,6 +221,7 @@
     #cssmenu ul li {
         width: 100%;
         border-top: 1px solid rgba(120, 120, 120, 0.2);
+        background: grey;
     }
     #cssmenu ul ul li,
     #cssmenu li:hover > ul > li {
@@ -264,7 +267,7 @@
     #cssmenu #menu-button {
         display: block;
         padding: 17px;
-        color: #dddddd;
+        color: black;
         cursor: pointer;
         font-size: 12px;
         text-transform: uppercase;
@@ -296,7 +299,7 @@
         border: 0;
         height: 2px;
         width: 15px;
-        background: #ffffff;
+        background: white;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);

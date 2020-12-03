@@ -1,10 +1,10 @@
 
 <!---Top Menu--->
     <div id="cssmenu" >    
-        <ul>           
+        <ul style="margin-left:30px;margin-right:30px;">           
         <img src="{{asset('images/logo_original2.png')}}">
            {{--<li class="has-sub"><a href="#"><span>Category</span></a>
-              <ul>
+              <ul style="display:none">
                  <li class="has-sub"><a href="#"><span>Item 1</span></a>
                     <ul>
                        <li><a href="#"><span>Sub Item</span></a></li>

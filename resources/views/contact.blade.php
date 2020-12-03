@@ -29,7 +29,7 @@
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
-			<div id="contact-area">
+			<div id="contact-area"  style="overflow-x:hidden">
 				<h1 class="">Contact Us</h1>
 				<div class="contact-map_wrapper wow fadeIn" data-wow-delay=".1s" data-wow-duration="1.5s">
 					<!-- Map -->
@@ -76,8 +76,8 @@
 					</div>
 				</div>
 				<div class="contact-main_wrapper">
-					<div class="row">
-						<div class="sm-2-5 ">
+					<div>
+						<div class="col-lg-4">
 							<div class="wrap-col">
 								<div class="wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">
 									<h3>Have any questions? Let's get in touch!</h3>
@@ -85,7 +85,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="sm-2-5 offset-sm-1-5">
+						<div class="col-lg-8">
 							<div class="wrap-col">
 								<div id="contact_form" class="wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">
                                     @if (\Illuminate\Support\Facades\Session::has('error'))
@@ -110,11 +110,11 @@
                                             </label>
 
                                             <label>
-                                                <textarea name="message" id="message" class="textarea-field" required="true" placeholder="Message" cols="48"></textarea>
+                                                <textarea name="message" id="message" class="textarea-field" required="true" placeholder="Message" cols="50"></textarea>
                                             </label>
-
-                                             <button class="button button-skin">Submit</button>
-                                        </form>
+                                             
+										</form>
+										<button class="button button-skin">Submit</button>
 									</div>
 								</div>
 							</div>
