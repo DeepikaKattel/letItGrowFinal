@@ -925,6 +925,7 @@ body {
 
 .content-box.box-7 {
     text-align: center;
+    justify-content: center;
 }
 .content-box.box-7 .wrap-box {
     padding: 20px 10px 20px;

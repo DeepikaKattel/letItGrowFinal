@@ -4,9 +4,13 @@
     background: transparent;
     font-family: Nunito, sans-serif;
     float: right;
+    display: grid;
+    align-items: center;
     right: 0%;
     width: 100%;
+    align-items: center;
 }
+
 #menu #cssmenu > ul > li > a {
     color: white;
 }
@@ -48,7 +52,7 @@
     font-family: Nunito, sans-serif;
     background: #116466;
     font-size: 10px;
-    height: 72px;
+    height: 77px;
     align-items: center;
 }
 #cssmenu > ul > li {

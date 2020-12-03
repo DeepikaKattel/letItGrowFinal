@@ -2,7 +2,7 @@
 <!---Top Menu--->
     <div id="cssmenu" >    
         <ul style="margin-left:30px;margin-right:30px;">           
-        <img src="{{asset('images/logo_original2.png')}}">
+        <img src="{{asset('images/logo_original2.png')}}" style="float:left">
            {{--<li class="has-sub"><a href="#"><span>Category</span></a>
               <ul style="display:none">
                  <li class="has-sub"><a href="#"><span>Item 1</span></a>

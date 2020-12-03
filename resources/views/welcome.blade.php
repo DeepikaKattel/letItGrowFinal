@@ -627,7 +627,7 @@ body{
 						</div>
 						<div class="row content" data-wow-delay=".1s" data-wow-duration="1s" style="margin-bottom:40px">					
 							<div class="col-lg-4 col-12 wow slideInLeft mt-5 mb-2" style="left:0%;">
-								<img src="{{asset('images/about.jpg')}}" style="width:100%;height:350px;">
+								<img src="{{asset('images/vision.jpg')}}" style="width:100%;height:350px;">
 							</div>
 							<div class="col-lg-8 col-12 mt-5 mb-2 wow slideInRight" >		
 								<div class="entry-content" style="box-shadow: rgba(0, 0, 0, 0.7) 3px 3px 10px 1px;padding:20px;">									
@@ -983,13 +983,13 @@ body{
 				<div class="zerogrid-fluid">
 					<div class="wrap-box"><!--Start Box-->
 						<div class="content wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">							
-							<div class="col-lg-4 col-12">
+							<div class="col-lg-4 col-12" >
 								<div class="wrap-col">
-									<div class="row">
-										<div class="sm-2-4">
+									<div class="row" >
+										<div class="sm-1-3">
 											<i class="fa fa-map-marker"></i>
 										</div>
-										<div class="sm-2-4 t-left-sm">
+										<div class="sm-2-3 t-left-sm">
 											<h3>Address</h3>
 											<p>Pulchowk, Lalitpur</p>
 										</div>
@@ -999,10 +999,10 @@ body{
 							<div class="col-lg-4 col-12">
 								<div class="wrap-col">
 									<div class="row">
-										<div class="sm-2-4">
+										<div class="sm-1-3">
 											<i class="fa fa-phone"></i>
 										</div>
-										<div class="sm-2-4 t-left-sm">
+										<div class="sm-2-3 t-left-sm">
 											<h3>Phone</h3>
 											<p>01-5901614</p>
 										</div>
@@ -1011,11 +1011,11 @@ body{
 							</div>
 							<div class="col-lg-4 col-12">
 								<div class="wrap-col">
-									<div class="row">
-										<div class="sm-2-4">
+									<div class="row" >
+										<div class="sm-1-3">
 											<i class="fa fa-envelope"></i>
 										</div>
-										<div class="sm-2-4 t-left-sm">
+										<div class="sm-2-3 t-left-sm">
 											<h3>Email</h3>
 											<p>info@letitgrownepal.com </p>
 										</div>
