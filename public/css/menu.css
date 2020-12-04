@@ -26,8 +26,8 @@
     padding: 0;
     border: 0;
     list-style: none;
-    line-height: 1.5;
-    height: 50px;
+    line-height: 2.5;
+    height: 78px;
     display: block;
     position: relative;
     -webkit-box-sizing: border-box;
@@ -49,9 +49,9 @@
 }
 #cssmenu {
     font-family: Nunito, sans-serif;
-    background: #116466;
+    background: rgb(17, 100, 102, 0.6);
     font-size: 10px;
-    height: 78px;
+    height: 80px;
     align-items: center;
 }
 #cssmenu > ul > li {
@@ -271,7 +271,7 @@
     #cssmenu #menu-button {
         display: block;
         padding: 17px;
-        background: rgba(45, 50, 56, 0.4);
+        background: rgb(17, 100, 102, 0.6);
         color: white;
         cursor: pointer;
         font-size: 12px;

@@ -188,7 +188,7 @@ img {
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team node">
 											<div class="pic wow slideInRight">
-												<h3 class="title">Salabh Adhikari</h3>
+												<h3 class="title">Shalabh Adhikari</h3>
 												<span class="post">Full Stack Developer</span>												
 												<img src="{{asset('images/shalabh.jpg')}}">
 											
@@ -223,7 +223,7 @@ img {
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team node">
 											<div class="pic wow slideInRight">
-												<h3 class="title">Sujit Maharjaan</h3>
+												<h3 class="title">Sujit Maharjan</h3>
 												<span class="post">Full Stack Developer</span>												
 												<img src="{{asset('images/sujit.jpg')}}">
 											
