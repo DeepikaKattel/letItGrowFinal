@@ -64,7 +64,11 @@
 		<script src="js/html5.js"></script>
 		<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
-
+<style>
+  .bg-overlay{
+    background: rgba(45, 50, 56, 0.4);
+  }
+  </style>
 </head>
 <body id="page-top" class="sub-page">
 <div class="wrap-body">

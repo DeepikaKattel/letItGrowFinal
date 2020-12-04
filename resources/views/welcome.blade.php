@@ -547,7 +547,10 @@ body{
 </head>
 @include('pageLoader')
 <div id="menu">
-	<nav class="navbar navbar-fixed-top">		
+	<nav class="navbar navbar-fixed-top">	
+		<div class="logo">
+			<img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;">       
+		</div>			
 		@include('partials.header')
 	</nav>
 </div>

@@ -55,7 +55,7 @@ class ContactUsController extends Controller
        
             Mail::to("easycarservicenepal@gmail.com")
                 ->send(new SendContactNotification($data));                      
-            return redirect()->back()->with("success", "The record has been stored");
+            return redirect()->back()->with("success", "Thank you for your response.");
         } else {
             return redirect()->back()->with("error", "There is an error");
         }

@@ -112,9 +112,13 @@
                                             <label>
                                                 <textarea name="message" id="message" class="textarea-field" required="true" placeholder="Message" cols="50"></textarea>
                                             </label>
+
+											<label style="margin-right:200px">
+                                             	<button class="button button-skin">Submit</button>
+                                            </label>
                                              
 										</form>
-										<button class="button button-skin">Submit</button>
+										
 									</div>
 								</div>
 							</div>

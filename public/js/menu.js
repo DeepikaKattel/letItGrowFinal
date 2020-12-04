@@ -3,13 +3,13 @@
   $.fn.menumaker = function(options) {
       
       var cssmenu = $(this), settings = $.extend({
-        title: "Let IT Grow",
+        title: "",
         format: "dropdown",
         sticky: false
       }, options);
 
       return this.each(function() {
-        cssmenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+        cssmenu.prepend('<div id="menu-button">' + '</div>');
         $(this).find("#menu-button").on('click', function(){
           $(this).toggleClass('menu-opened');
           var mainmenu = $(this).next('ul');
@@ -64,7 +64,7 @@
 $(document).ready(function(){
 
 $("#cssmenu").menumaker({
-   title: "Let IT Grow",
+   title: "",
    format: "multitoggle"
 });
 

@@ -408,6 +408,10 @@ body.sub-page header .main-header {
     height: 40vh;
     background: url(../images/hero.jpg) center center;
 }
+body.sub-page header {
+    height: 40vh;
+    background: rgba(45, 50, 56, 0.4);
+}
 body.sub-page header .main-header .hero-lead {
     margin-bottom: 0;
 }

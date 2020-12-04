@@ -1,8 +1,7 @@
 
 <!---Top Menu--->
-    <div id="cssmenu" >    
-        <ul>           
-        <img src="{{asset('images/logo_original2.png')}}">
+    <div id="cssmenu" >       
+        <ul>       
            {{--<li class="has-sub"><a href="#"><span>Category</span></a>
               <ul style="display:none">
                  <li class="has-sub"><a href="#"><span>Item 1</span></a>

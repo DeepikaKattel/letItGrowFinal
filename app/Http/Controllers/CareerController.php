@@ -73,7 +73,7 @@ class CareerController extends Controller
             //     'mime' => $data['cv']->getMimeType()
             // )
             // );
-            return redirect()->back()->with("success", "The record has been stored. We will contact you as soon as possible.");
+            return redirect()->back()->with("success", "Thank you for applying. We will contact you as soon as possible.");
         } else {
             return redirect()->back()->with("error", "There is an error");
         }
