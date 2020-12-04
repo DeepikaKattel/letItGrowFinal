@@ -984,42 +984,36 @@ body{
 					<div class="wrap-box"><!--Start Box-->
 						<div class="content wow fadeInLeft" data-wow-delay=".1s" data-wow-duration="1s">							
 							<div class="col-lg-4 col-12" >
-								<div class="wrap-col">
-									<div class="row" >
-										<div class="sm-1-3">
-											<i class="fa fa-map-marker"></i>
-										</div>
-										<div class="sm-2-3 t-left-sm">
-											<h3>Address</h3>
-											<p>Pulchowk, Lalitpur</p>
-										</div>
+								<div class="wrap-col d-flex">									
+									<div class="sm-1-3">
+										<i class="fa fa-map-marker"></i>
 									</div>
+									<div class="sm-2-3 t-left-sm">
+										<h3>Address</h3>
+										<p>Pulchowk, Lalitpur</p>
+									</div>									
 								</div>
 							</div>
 							<div class="col-lg-4 col-12">
-								<div class="wrap-col">
-									<div class="row">
-										<div class="sm-1-3">
-											<i class="fa fa-phone"></i>
-										</div>
-										<div class="sm-2-3 t-left-sm">
-											<h3>Phone</h3>
-											<p>01-5901614</p>
-										</div>
+								<div class="wrap-col d-flex">									
+									<div class="sm-1-3">
+										<i class="fa fa-phone"></i>
 									</div>
+									<div class="sm-2-3 t-left-sm">
+										<h3>Phone</h3>
+										<p>01-5901614</p>
+									</div>									
 								</div>
 							</div>
 							<div class="col-lg-4 col-12">
-								<div class="wrap-col">
-									<div class="row" >
-										<div class="sm-1-3">
-											<i class="fa fa-envelope"></i>
-										</div>
-										<div class="sm-2-3 t-left-sm">
-											<h3>Email</h3>
-											<p>info@letitgrownepal.com </p>
-										</div>
+								<div class="wrap-col d-flex">									
+									<div class="sm-1-3">
+										<i class="fa fa-envelope"></i>
 									</div>
+									<div class="sm-2-3 t-left-sm">
+										<h3>Email</h3>
+										<p>info@letitgrownepal.com </p>
+									</div>								
 								</div>
 							</div>
 							
