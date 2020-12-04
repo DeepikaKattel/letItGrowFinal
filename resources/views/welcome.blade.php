@@ -1101,7 +1101,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 				$(".navbar").css("background" , "white");
 				$("#menu #cssmenu a").css("color" , "#116466");
 				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)");
-				$("#menu #cssmenu").css("box-shadow" , " rgba(0, 0, 0, 0.7) 3px 3px 10px 1px");
+				$("#menu .navbar").css("box-shadow" , " rgba(0, 0, 0, 0.5) 3px 3px 15px 1px");
 
 			}
 
@@ -1109,7 +1109,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 				$(".navbar").css("background" , "transparent");
 				$("#menu #cssmenu a").css("color" , "white"); 
 				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)"); 
-				$("#menu #cssmenu").css("box-shadow" , " rgba(0, 0, 0, 0.7) 0px 0px 0px 0px");	
+				$("#menu .navbar").css("box-shadow" , " rgba(0, 0, 0, 0.7) 0px 0px 0px 0px");	
 			}
 		})
 	})
