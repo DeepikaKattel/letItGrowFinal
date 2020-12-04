@@ -497,7 +497,7 @@ h2:before{
     .our-team{ overflow: hidden; padding-right:20px; }
 	#about h2:before{
 		left:20px;	
-		width:100%;
+		width:80%;
 	}
 	#about .entry-content{
 		box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 0px 0px;
@@ -543,12 +543,11 @@ body{
 	font-family:'Nunito', sans-serif;	
 }
 
-
 </style>
 </head>
 @include('pageLoader')
 <div id="menu">
-	<nav class="navbar navbar-fixed-top">
+	<nav class="navbar navbar-fixed-top">		
 		@include('partials.header')
 	</nav>
 </div>
@@ -565,7 +564,8 @@ body{
                             <!-- <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s" >We build designs from your imagination</h4> -->                            
                             <!-- <img src="{{asset('images/logo.png')}}"class="wow fadeIn"style="height:200px;width:500px;box-shadow:2px 2px 2px 2px"/> -->
 							
-								<h1 class="hero-lead wow slideInLeft" data-wow-duration="1.5s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;"> <canvas id="myCanvas" style="margin-top:0px"></canvas>Let <span style="color:white">IT</span>Grow</h1>
+								<h1 class="hero-lead wow slideInLeft" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;">Let <span style="color:white">IT</span>Grow</h1>
+								<h3 class="wow slideInRight" data-wow-duration="2.5s" style="color:white">Your Enterprise...</h3>
 								
 								<!-- <img src="{{asset('images/logo.png')}}" alt='' style="margin-bottom:600px;margin-left:500px;"> -->
 							   
@@ -1106,11 +1106,13 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 				// $(".navbar").css("background" , "rgb(17, 100, 102, 0.6)");
 				$(".navbar").css("background" , "white");
 				$("#menu #cssmenu a").css("color" , "#116466");
+				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)");
 			}
 
 			else if(scroll < 300){
 				$(".navbar").css("background" , "transparent");
-				$("#menu #cssmenu a").css("color" , "white");  	
+				$("#menu #cssmenu a").css("color" , "white"); 
+				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)"); 	
 			}
 		})
 	})

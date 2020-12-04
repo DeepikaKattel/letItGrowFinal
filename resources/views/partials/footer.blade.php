@@ -1,6 +1,6 @@
 <footer id="page-footer" class="wow fadeInRight">	
 	<div class="zerogrid bottom-footer">
-		<div class="row" style="justify-content:center">
+		<div style="justify-content:center">
 			<div class="bottom-social">
 				<a href="https://www.facebook.com/LetITGrowNepal/"><i class="fa fa-facebook"></i></a>
 				<a href="https://www.instagram.com/letitgrownepal/"><i class="fa fa-instagram"></i></a>				

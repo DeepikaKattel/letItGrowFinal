@@ -584,6 +584,7 @@ body {
         height: 100%;
     }
 }
+
 @media (max-width: 600px) {
     body {
         width: 100%;
@@ -592,7 +593,7 @@ body {
 }
 #page-content {
     position: relative;
-    overflow: hidden;
+
     z-index: 1;
     bottom: 0px;
     background: white;
@@ -619,7 +620,7 @@ body {
 .content-box .header h2 {
     font-size: 1.5em;
     letter-spacing: 4px;
-    color: #47d1ae;
+    color: #116466;
 }
 
 .content-box .header .wrapper {
@@ -924,11 +925,11 @@ body {
 }
 
 .content-box.box-7 {
-    text-align: center;
     justify-content: center;
 }
 .content-box.box-7 .wrap-box {
     padding: 20px 10px 20px;
+    justify-content: center;
 }
 .content-box.box-7 h3 {
 }
@@ -937,9 +938,10 @@ body {
 }
 .content-box.box-7 i.fa {
     font-size: 24px;
+    text-align: center;
     height: 65px;
     width: 65px;
-    background: #47d1ae;
+    background: rgba(40, 215, 226);
     color: #fff;
     border-radius: 50%;
     margin: 0 20px 30px 0;
@@ -963,10 +965,9 @@ body {
     }
 }
 @media (max-width: 767px) {
-    .content-box.box-7 {
-        float: none;
-        margin-top: 10px;
-        display: inline-block;
+    section .content-box.box-7 {
+        justify-content: center;
+        display: flex;
         vertical-align: top;
     }
 }
@@ -1089,7 +1090,7 @@ footer a {
     text-shadow: none;
 }
 footer a:hover {
-    color: #47d1ae;
+    color: rgba(40, 215, 226);
 }
 footer .bottom-social i.fa:hover {
     transform: translate(0, -10px);
@@ -1371,12 +1372,12 @@ footer .bottom-social i.fa {
     height: 42px;
     width: 42px;
     padding: 7px 0 0;
-    border: 2px solid #47d1ae;
+    border: 2px solid rgba(40, 215, 226);
     margin: 0;
-    color: #47d1ae;
+    color: rgba(40, 215, 226);
 }
 .button-toTop:hover {
-    background: #47d1ae;
+    background: rgba(40, 215, 226);
     color: #fff;
 }
 
@@ -1528,7 +1529,7 @@ footer .bottom-social i.fa {
 .crumbs ul li a {
     display: block;
     float: left;
-    background: #47d1ae;
+    background: #116466;
     text-align: center;
     padding: 7px 30px 8px 40px;
     position: relative;
@@ -1541,7 +1542,7 @@ footer .bottom-social i.fa {
     content: "";
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 20px solid #47d1ae;
+    border-left: 20px solid #116466;
     position: absolute;
     right: -20px;
     top: 0;

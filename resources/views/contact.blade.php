@@ -21,7 +21,7 @@
 	</header>
 
 	<!--////////////////////////////////////Container-->
-	<section id="page-content">
+	<section>
 		<div class="wrap-container zerogrid">
 			<div class="crumbs">
 				<ul>

@@ -50,7 +50,7 @@
                     <textarea  class="form-control" id="job_description" name="job_description" placeholder="Enter Job Description">{{old('job_description', $career->job_description)}}</textarea>
                   </div>
                   <div class="form-group">
-                    <label for="department">Major Skills</label>
+                    <label for="department">Job Level</label>
                     <textarea  class="form-control" id="skills" name="major_skills" placeholder="Enter Major Skills">{{old('major_skills', $career->major_skills)}}</textarea>
                   </div>
                   <div class="form-group">

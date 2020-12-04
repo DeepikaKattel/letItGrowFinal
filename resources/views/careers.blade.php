@@ -34,14 +34,12 @@
 					<li><a href="{{route('career')}}">Careers</a></li>
 				</ul>
 			</div>
-			<div>
+			<div id="about-us">
 				<article class="post-entry single-post">
 					<div class="wrap-post">
 						<div class="entry-header">
 							<h1 class="entry-title">Careers</h1>
-						</div>
-				    </div>
-				</article>
+						</div>				 
 
                 <!-- Main content -->
                   <section class="content">
@@ -103,7 +101,9 @@
                     <!-- /.container-fluid -->
                   </section>
                   <!-- /.content -->
-            </div>
+              </div>
+          </article>      
+        </div>      
 		</div>
 	</section>
 @endsection
