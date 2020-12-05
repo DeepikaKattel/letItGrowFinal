@@ -8,10 +8,11 @@
     right: 0%;
     align-items: center;
     display: inline-block;
-    width: 90%;
+    width: 80%;
 }
 #menu .logo {
     display: inline-block;
+    float: left;
 }
 
 #menu #cssmenu > ul > li > a {
@@ -29,7 +30,7 @@
     padding: 0;
     border: 0;
     list-style: none;
-    line-height: 1;
+    line-height: 1.5;
     height: 45px;
     display: block;
     position: relative;
@@ -209,6 +210,9 @@
     top: 17px;
     height: 0;
 }
+.navbar-brand {
+    height: 0px;
+}
 @media all and (max-width: 768px),
     only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
     only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -284,9 +288,9 @@
     }
     #cssmenu #menu-button:after {
         position: absolute;
-        top: 8px;
-        /* right: 17px; */
-        left: 5%;
+        top: 23px;
+        right: 17px;
+        /* left: 5%; */
         display: block;
         height: 8px;
         width: 20px;
@@ -297,9 +301,9 @@
     }
     #cssmenu #menu-button:before {
         position: absolute;
-        top: 2.5px;
-        /* right: 17px; */
-        left: 5%;
+        top: 17px;
+        right: 17px;
+        /* left: 5%; */
         display: block;
         height: 3px;
         width: 20px;
