@@ -9,13 +9,16 @@
 					<!---Hero Content--->
 					<div class="hero-content-wrapper">
 					  <div class="hero-content">
-						<h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Something About Us</h4>
+						<h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">You imagine we build</h4>
 						<h1 class="hero-lead wow fadeInLeft" data-wow-duration="1.5s">Vision</h1>
 					  </div>
 					</div>
 				</div>
 			</div>
-			@include('partials.header')
+			<div id="menu">
+				<img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	
+				@include('partials.header')
+			</div>
 		</div>
 	</header>
 

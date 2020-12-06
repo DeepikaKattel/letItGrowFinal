@@ -68,6 +68,12 @@
   .bg-overlay{
     background: rgba(45, 50, 56, 0.4);
   }
+  #menu #cssmenu > ul > li a{
+    color:black;
+      
+  }
+  
+  
   </style>
 </head>
 <body id="page-top" class="sub-page">

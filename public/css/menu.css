@@ -53,7 +53,8 @@
 }
 #cssmenu {
     font-family: Nunito, sans-serif;
-    background: rgb(17, 100, 102, 0.6);
+    /* background: rgb(17, 100, 102, 0.6); */
+    background: white;
     /* background: rgba(146, 147, 158, 0.6); */
     font-size: 10px;
     height: 45px;
@@ -84,12 +85,12 @@
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: white;
-    font-weight: 700;
+    color: black;
+    font-weight: 800;
     text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-    color: black;
+    color: rgba(40, 215, 226);
 }
 #cssmenu > ul > li.has-sub > a {
     padding-right: 20px;
@@ -213,6 +214,29 @@
 .navbar-brand {
     height: 0px;
 }
+@media all and (max-width: 500px) {
+    #menu #cssmenu .navbar {
+        width: 60%;
+        background: white;
+    }
+    #menu #cssmenu > ul > li a {
+        color: black;
+    }
+
+    /* #menu #cssmenu #menu-button:after {
+        position: absolute;
+        top: 23px;
+        right: 1px;
+        /* left: 5%; */
+    /* display: block;
+        height: 8px;
+        width: 20px;
+        color: white;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        content: "";
+    } */
+}
 @media all and (max-width: 768px),
     only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
     only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -233,8 +257,10 @@
     }
     #cssmenu ul li {
         width: 100%;
+        color: black;
         border-top: 1px solid rgba(120, 120, 120, 0.2);
-        background: rgba(146, 147, 158, 0.6);
+        /* background: rgb(255, 255, 255); */
+        background: white;
     }
     #cssmenu ul ul li,
     #cssmenu li:hover > ul > li {
@@ -280,11 +306,11 @@
     #cssmenu #menu-button {
         display: block;
         padding: 17px;
-        color: white;
+        color: black;
         cursor: pointer;
         font-size: 12px;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 900;
     }
     #cssmenu #menu-button:after {
         position: absolute;
