@@ -215,9 +215,8 @@
     height: 0px;
 }
 @media all and (max-width: 500px) {
-    #menu #cssmenu .navbar {
+    #menu #cssmenu {
         width: 60%;
-        background: white;
     }
     #menu #cssmenu > ul > li a {
         color: black;

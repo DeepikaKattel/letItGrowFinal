@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\Analytics\Period;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $about = DB::table('abouts')->get();
     return view('welcome', compact('about'));
+});
+Route::get('/data', function () {
+   //retrieve visitors and pageview data for the current day and the last seven days
+    $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
+    dd($analyticsData);
+
 });
 
 Auth::routes();

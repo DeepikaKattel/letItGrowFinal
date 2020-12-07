@@ -46,7 +46,18 @@
 	<!-- Owl Carousel Assets -->
     <link href="{{asset('owl-carousel/owl.carousel.css')}}" rel="stylesheet">
     <!-- <link href="{{asset('owl-carousel/owl.theme.css')}}" rel="stylesheet"> -->
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-184876775-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-184876775-1');
+</script>
+
+    
 
     <link href="{{asset('css/quoteCarousel.css')}}" rel="stylesheet">
 

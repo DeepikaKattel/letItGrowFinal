@@ -51,6 +51,16 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-184876775-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-184876775-1');
+	</script>
+
     
 
 
@@ -1108,7 +1118,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 
 			else if(scroll < 300){
 				$(".navbar").css("background" , "transparent");
-				$("#menu #cssmenu a").css("color" , "white"); 
+				$("#menu #cssmenu a").css("color" , "#116466"); 
 				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)"); 
 				$("#menu .navbar").css("box-shadow" , " rgba(0, 0, 0, 0.7) 0px 0px 0px 0px");	
 			}

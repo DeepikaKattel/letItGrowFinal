@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
+  <!-- <link rel="stylesheet" href="{{asset('css/counter.css')}}"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap" rel="stylesheet">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bbootstrap 4 -->
@@ -34,6 +36,8 @@
     <link rel="stylesheet" href="{{asset('plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  
 
 
 </head>
@@ -296,6 +300,7 @@
   <script src="{{asset('plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script>
   <!-- jQuery Knob Chart -->
   <script src="{{asset('plugins/jquery-knob/jquery.knob.min.js')}}"></script>
+  <script src="{{asset('js/counter.js')}}"></script>
   <!-- daterangepicker -->
   <script src="{{asset('plugins/moment/moment.min.js')}}"></script>
   <script src="{{asset('plugins/daterangepicker/daterangepicker.js')}}"></script>
