@@ -1,7 +1,8 @@
 @extends('common')
 @section('content')
+	
 	<!--////////////////////////////////////Header-->
-	<header>
+	<header>		
 		<div class="wrap-header" >
 			<!---Main Header--->
 			<div class="main-header">
@@ -16,10 +17,7 @@
 				</div>
 			</div>
 			<!---Top Menu--->
-			<div id="menu">
-				<img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	
-				@include('partials.header')
-			</div>			
+						
 		</div>
 	</header>
 	

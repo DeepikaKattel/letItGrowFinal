@@ -54,7 +54,7 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-184876775-1');
+  gtag('config', 'UA-184910078-1');
 </script>
 
     
@@ -87,6 +87,15 @@
   
   </style>
 </head>
+<div id="menu">
+		<nav class="navbar navbar-fixed-top" style="height:80px">	
+			<figure class="swing">
+				<img src="{{asset('images/logoFull.png')}}" width="70" >
+			</figure>  	
+			<!-- <img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	 -->
+			@include('partials.header')
+		</nav>
+	</div>
 <body id="page-top" class="sub-page">
 <div class="wrap-body">
     @yield('content')

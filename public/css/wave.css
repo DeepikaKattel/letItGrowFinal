@@ -1,11 +1,3 @@
-header {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(../images/backgroundWelcom.jpg) center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 header .wave {
     position: absolute;
     width: 100%;

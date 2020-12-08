@@ -143,10 +143,7 @@ img {
 					</div>
 				</div>
 			</div>
-			<div id="menu">
-				<img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	
-				@include('partials.header')
-			</div>
+			
 		</div>
 	</header>
 

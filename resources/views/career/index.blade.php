@@ -16,7 +16,7 @@
 					</div>
 				</div>
 			</div>
-			@include('partials.header')
+			
 		</div>
 	</header>
 

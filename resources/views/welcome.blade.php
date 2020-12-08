@@ -32,6 +32,7 @@
     <link href="{{asset('css/robot.css')}}" rel="stylesheet" media="all" type="text/css">
 	<link href="{{asset('css/networkAnimate.css')}}" rel="stylesheet" media="all" type="text/css">
 	<link href="{{asset('css/wave.css')}}" rel="stylesheet" media="all" type="text/css">
+	<link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
 	
 
 
@@ -58,7 +59,7 @@
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
-	gtag('config', 'UA-184876775-1');
+	gtag('config', 'UA-184910078-1');
 	</script>
 
     
@@ -555,14 +556,19 @@ body{
 
 </style>
 </head>
-@include('pageLoader')
-<div id="menu">
-	<nav class="navbar navbar-fixed-top" style="height:80px">		
-		<img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	
-		@include('partials.header')
-	</nav>
-</div>
+
+
 <body id="page-top" style="color:grey">
+@include('pageLoader')
+	<div id="menu">
+		<nav class="navbar navbar-fixed-top" style="height:80px">	
+			<figure class="swing">
+				<img src="{{asset('images/logoFull.png')}}" width="70" >
+			</figure>  	
+			<!-- <img src="{{asset('images/logoFull.png')}}" style="height:60px;width:85px;padding-top:10px;">       	 -->
+			@include('partials.header')
+		</nav>
+	</div>
     <div class="wrap-body">
         <!--////////////////////////////////////Header-->
         <header>
@@ -576,14 +582,17 @@ body{
                             <!-- <img src="{{asset('images/logo.png')}}"class="wow fadeIn"style="height:200px;width:500px;box-shadow:2px 2px 2px 2px"/> -->
 							
 								<h1 class="hero-lead wow slideInLeft" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;">Let <span style="color:white">IT</span>Grow</h1>
-								<h3 class="wow slideInRight" data-wow-duration="2.5s" style="color:white">Your Enterprise...</h3>
-								
+								<h4 class="wow slideInRight" data-wow-duration="2.5s" style="color:white">Your Enterprise...</h4>
+								<!-- <figure class="swing">
+									<img src="{{asset('images/logo_original.png')}}" width="300" >
+								</figure>   -->
 								<!-- <img src="{{asset('images/logo.png')}}" alt='' style="margin-bottom:600px;margin-left:500px;"> -->
 							   
                             
                             <!-- <a href="{{asset('about')}}" class="button button-skin wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Read More</a> -->
                         </div>
                     </div>
+					
                         <!-- <canvas id="c"></canvas> -->
                         <!-- <div class="containerRobot">
 							<div class="robot">
@@ -1103,7 +1112,7 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
   });
   
   </script>  
-<script>
+ <!-- <script> 
 	$(document).ready(function(){
 		$(window).scroll(function(){
 			var scroll = $(window).scrollTop();
@@ -1117,14 +1126,14 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 			}
 
 			else if(scroll < 300){
-				$(".navbar").css("background" , "transparent");
+				$(".navbar").css("background" , "white");
 				$("#menu #cssmenu a").css("color" , "#116466"); 
 				$("#menu #cssmenu a:hover").css("color" , "rgba(40, 215, 226)"); 
 				$("#menu .navbar").css("box-shadow" , " rgba(0, 0, 0, 0.7) 0px 0px 0px 0px");	
 			}
 		})
 	})
-</script>
+ </script>  -->
 </div>
 </body>
 </html>

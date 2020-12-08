@@ -14,9 +14,12 @@
     display: inline-block;
     float: left;
 }
+#menu .navbar {
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 15px 1px;
+}
 
 #menu #cssmenu > ul > li > a {
-    color: white;
+    color: #116466;
 }
 #menu #cssmenu ul > li > a:hover {
     color: rgba(40, 215, 226);
@@ -54,10 +57,10 @@
 #cssmenu {
     font-family: Nunito, sans-serif;
     /* background: rgb(17, 100, 102, 0.6); */
-    background: white;
+    background: rgb(228, 227, 227, 0.4);
     /* background: rgba(146, 147, 158, 0.6); */
     font-size: 10px;
-    height: 45px;
+    height: 55px;
     align-items: center;
 }
 #cssmenu > ul > li {

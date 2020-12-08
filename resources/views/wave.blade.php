@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>CSS 3D Rotation Effect</title>
-<link href="{{asset('css/explosion.css')}}" rel="stylesheet" media="all" type="text/css">
+<link href="{{asset('css/swing.css')}}" rel="stylesheet" media="all" type="text/css">
 </head>
 <body>
     
 
-<div class="explode">
-  <img src="http://lorempixel.com/500/500" />
-</div>
+<figure class="swing">
+  <img src="{{asset('images/logoFull.png')}}" width="200" >
+</figure>  
 
 
 
