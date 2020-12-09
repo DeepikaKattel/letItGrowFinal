@@ -553,13 +553,51 @@ p{
 body{	
 	font-family:'Nunito', sans-serif;	
 }
+/* preloader */
+body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url('../images/preloader.gif');
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
 
 </style>
 </head>
+<div id="preloader">
+	
+	<div id="status"><h1 style="line-height:10px;width:300px;color:white;font-weight:bolder">Let <span style="color:rgba(40, 215, 226)">IT</span>Grow</h1>&nbsp;</div>
+</div>
 
+<body id="page-top" style="color:grey">	
 
-<body id="page-top" style="color:grey">
-@include('pageLoader')
 	<div id="menu">
 		<nav class="navbar navbar-fixed-top" style="height:80px">	
 			<figure class="swing">
@@ -1134,6 +1172,16 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 		})
 	})
  </script>  -->
+ <script>
+	$(window).on('load', function() { // makes sure the whole site is loaded 
+		$('#menu').hide();
+		$('#status').fadeOut(); // will first fade out the loading animation 
+		$('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+		$('#menu').delay(1000).fadeIn('slow'); 
+		$('body').delay(500).css({'overflow-y':'visible'});		
+})
+	
+ </script>
 </div>
 </body>
 </html>
