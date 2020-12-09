@@ -9,6 +9,7 @@ use App\Models\ContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\DB;
+Use RealRashid\SweetAlert\Facades\Alert;
 
 class CareerController extends Controller
 {
@@ -49,7 +50,7 @@ class CareerController extends Controller
         $career->designation_id = request('designation_id');
         if ($request->hasFile('cv')) {
             $cv = $request->cv;
-            $fileName = $career->name . "." . $cv->getClientOriginalExtension();
+            $fileName = $cv->getClientOriginalExtension();
             $destination_path = public_path("careerCV/");
             $cv->move($destination_path, $fileName);
             $career->cv = 'careerCV/' . $fileName;
@@ -73,9 +74,11 @@ class CareerController extends Controller
             //     'mime' => $data['cv']->getMimeType()
             // )
             // );
-            return redirect()->back()->with("success", "Thank you for applying. We will contact you as soon as possible.");
+            Alert::success('Thank you', 'We will contact you soon');
+            return redirect()->back();
         } else {
-            return redirect()->back()->with("error", "There is an error");
+            Alert::error('Oops', 'There is an error');
+            return redirect()->back();
         }
     }
 

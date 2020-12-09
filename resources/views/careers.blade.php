@@ -1,6 +1,7 @@
 @extends('common')
 @section('content')
-	<!--////////////////////////////////////Header-->
+  <!--////////////////////////////////////Header-->
+
 	<style>
 	    table td{
 	        padding:20px;

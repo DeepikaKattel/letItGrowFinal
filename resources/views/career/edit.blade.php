@@ -1,6 +1,7 @@
 @extends('common')
 @section('content')
 	<!--////////////////////////////////////Header-->
+	@include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
 	<header>
 		<div class="wrap-header" >
 			<!---Main Header--->
@@ -15,8 +16,7 @@
 					</div>
 				</div>
 			</div>
-			<!---Top Menu--->
-			@include('partials.header')
+			
 		</div>
 	</header>
 

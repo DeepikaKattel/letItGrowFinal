@@ -14,12 +14,14 @@
 
 .node {
     display: inline-block;
-    text-align: center;   
+	text-align: center;
+	width:200px;   
+	height:200px;
     
 }
 
 .our-team{
-    padding-bottom: 20px;
+	padding-bottom: 20px;	
 	width:100%;
     text-align: center;
 	display:inline-block;
@@ -28,8 +30,7 @@
     /* filter: grayscale(0%);	  */
 }
 
-.our-team:hover{
-    padding-bottom: 20px;
+.node:hover{    
     text-align: center;
 	display:inline-block;	
     /* filter: grayscale(100%); */
@@ -51,22 +52,22 @@
     color: white;
 }
 .our-team .pic img{
-    width: 101%;
-    height: 101%;
-    border-radius: 50%;
+	width: 200px;
+    height: 200px;
+    border-radius: 50%;   
     position: absolute;
     top: -1px;
     left: -40px;
     transition: all 0.6s ease 0s;
 }
-.our-team:hover .pic img{
-    /* transform: rotate(-360deg); */
+.node:hover .pic img {
+	/* transform: rotate(-360deg); */	
     transform-origin: 105% 100% 0;
 	transform: rotateY(100deg);		
 }
 .our-team .title{
     display: block;
-	font-size:15px;	
+	font-size:14px;	
     font-weight: 800;
     color: white;
     letter-spacing: 0.5px;
@@ -167,91 +168,101 @@ img {
 							<div class="container app">
 								<div class="row">
 									<div class="col-md-4 col-sm-6">
-										<div class="our-team node">
-											<div class="pic wow slideInRight">
-												<h3 class="title" >Tribhuwan Kushwaha</h3>
-												<span class="post">Software Consultant</span>												
-												<img src="{{asset('images/tribhuwan.jpg')}}">
+										<div class="our-team">
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title" >Tribhuwan Kushwaha</h3>
+													<span class="post">Software Consultant</span>												
+													<img src="{{asset('images/tribhuwan.jpg')}}">
 											
 											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul>
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="#" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									
 								
 									<div class="col-md-4 col-sm-6">
-										<div class="our-team node">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Shalabh Adhikari</h3>
-												<span class="post">Full Stack Developer</span>												
-												<img src="{{asset('images/shalabh.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="https://np.linkedin.com/in/shalabh-adhikari" class="fa fa-linkedin"></a></li>
-											</ul>
+										<div class="our-team">
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Shalabh Adhikari</h3>
+													<span class="post">Full Stack Developer</span>												
+													<img src="{{asset('images/shalabh.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="https://np.linkedin.com/in/shalabh-adhikari" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>	
 								
 									<div class="col-md-4 col-sm-6">
-										<div class="our-team node">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Bharat Phuyal</h3>
-												<span class="post">Administrative Executive</span>												
-												<img src="{{asset('images/bharat.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul>
+										<div class="our-team">
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Bharat Phuyal</h3>
+													<span class="post">Administrative Executive</span>												
+													<img src="{{asset('images/bharat.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="#" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
-										<div class="our-team node">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Sujit Maharjan</h3>
-												<span class="post">Full Stack Developer</span>												
-												<img src="{{asset('images/sujit.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul>
+										<div class="our-team">
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Sujit Maharjan</h3>
+													<span class="post">Full Stack Developer</span>												
+													<img src="{{asset('images/sujit.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="#" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>	
 								
 									<div class="col-md-4 col-sm-6">
-										<div class="our-team node">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Nikita Niraula</h3>
-												<span class="post">Graphics Designer</span>												
-												<img src="{{asset('images/nikita.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="#" class="fa fa-linkedin"></a></li>
-											</ul>
+										<div class="our-team">
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Nikita Niraula</h3>
+													<span class="post">Graphics Designer</span>												
+													<img src="{{asset('images/nikita.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="#" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>		
@@ -259,69 +270,77 @@ img {
 										
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Deepika Kattel</h3>
-												<span class="post">Web Application Developer</span>												
-												<img src="{{asset('images/deepika.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="https://www.linkedin.com/in/deepika-kattel-3236011b0/" class="fa fa-linkedin"></a></li>
-											</ul>
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Deepika Kattel</h3>
+													<span class="post">Web Application Developer</span>												
+													<img src="{{asset('images/deepika.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="https://www.linkedin.com/in/deepika-kattel-3236011b0/" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>	
 									
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Sandeep Bajracharya</h3>
-												<span class="post">React JS Developer</span>												
-												<img src="{{asset('images/sandeep.jpg')}}">											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="https://www.linkedin.com/in/sandeep-bajracharya-242352194/" class="fa fa-linkedin"></a></li>
-											</ul>
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Sandeep Bajracharya</h3>
+													<span class="post">React JS Developer</span>												
+													<img src="{{asset('images/sandeep.jpg')}}">											
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="https://www.linkedin.com/in/sandeep-bajracharya-242352194/" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Bivisha Karki</h3>
-												<span class="post">Mobile Application Developer</span>												
-												<img src="{{asset('images/bivisha.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="https://www.linkedin.com/in/bivisha-karki-9a31ab175" class="fa fa-linkedin"></a></li>
-											</ul>
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Bivisha Karki</h3>
+													<span class="post">Mobile Application Developer</span>												
+													<img src="{{asset('images/bivisha.jpg')}}">
+												
+												
+													<ul class="social">
+														<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+														<li><a href="#" class="fa fa-twitter"></a></li>
+														<li><a href="#" class="fa fa-google-plus"></a></li> -->
+														<li><a href="https://www.linkedin.com/in/bivisha-karki-9a31ab175" class="fa fa-linkedin"></a></li>
+													</ul>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-4 col-sm-6">
 										<div class="our-team">
-											<div class="pic wow slideInRight">
-												<h3 class="title">Nitesh Manandhar</h3>
-												<span class="post">Node JS Developer</span>												
-												<img src="{{asset('images/nitesh.jpg')}}">
-											
-											
-											<ul class="social">
-												<!-- <li><a href="#" class="fa fa-facebook"></a></li>
-												<li><a href="#" class="fa fa-twitter"></a></li>
-												<li><a href="#" class="fa fa-google-plus"></a></li> -->
-												<li><a href="https://www.linkedin.com/in/nitesh-manandhar-895947178/" class="fa fa-linkedin"></a></li>
-											</ul>
+											<div class="node">
+												<div class="pic wow slideInRight">
+													<h3 class="title">Nitesh Manandhar</h3>
+													<span class="post">Node JS Developer</span>												
+													<img src="{{asset('images/nitesh.jpg')}}">
+												
+												
+												<ul class="social">
+													<!-- <li><a href="#" class="fa fa-facebook"></a></li>
+													<li><a href="#" class="fa fa-twitter"></a></li>
+													<li><a href="#" class="fa fa-google-plus"></a></li> -->
+													<li><a href="https://www.linkedin.com/in/nitesh-manandhar-895947178/" class="fa fa-linkedin"></a></li>
+												</ul>
+												</div>
 											</div>
 										</div>
 									</div>					

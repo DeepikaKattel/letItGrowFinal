@@ -711,24 +711,32 @@ body {
 							<div class="content" data-wow-delay=".1s" data-wow-duration="1s">
 								<div class="row" style="justify-content:center">								
 									<div class="wrapper col-lg-4 col-12 wow slideInLeft">
-										<div class="card" style="background: url('/images/webDevelopment.jpg') 320px 450px;">
-											<div class="front">
-												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
-											</div>
-											<div class="right" style="background: url('/images/webDevelopment.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>										
+										<div class="card" >
+											<div class="front" style="background: url('/images/webDevelopment.jpg')">
+											<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>																						 
 
+											</div>
+											<div class="right" style="background: grey 320px 450px;">
+												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px;"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>										
+												<div style="top:20%;widht:80px;height:150px;background:white">
+													<p style="padding:20px;">Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+												</div>
 											</div>
 										</div>										
 									</div>
 									<div class="wrapper col-lg-4 col-12 wow slideInTop">
-										<div class="card" style="background: url('/images/webDesign.jpg') 320px 450px;">
-											<div class="front">
-												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
+										<div class="card" >
+											<div class="front" style="background: url('/images/webDesign.jpg')">
+												<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>																						 
+											
 											</div>
-											<div class="right" style="background: url('/images/webDesign.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>											
+											<div class="right" style="background:grey 320px 450px;">
+												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>											
 												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</></button> -->
+												<div style="top:20%;widht:80px;height:150px;background:white">
+													<p style="padding:20px;">IT handles are considered to be smarter in this century. Let IT Grow is the best platform for you to come and acquire professional skills.</p>
+
+												</div>
 											</div>
 										</div>
 										<!-- <div class="img-wrapper">
@@ -737,13 +745,16 @@ body {
 										</div> -->
 									</div>
 									<div class="wrapper col-lg-4 col-12 wow slideInRight">
-										<div class="card" style="background: url('/images/mobileApplication.jpg') 320px 450px;">
-											<div class="front">
-												<!-- <h1 style="color:white">Web<br> Development<br></h1>											 -->
+										<div class="card">
+											<div class="front" style="background: url('/images/mobileApplication.jpg')">
+												<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>																						 
 											</div>
-											<div class="right" style="background: url('/images/mobileApplication.jpg') 320px 450px;">
-												<h1 style="color:white;margin:20px;font-size:28px;font-weight:bolder"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>											
+											<div class="right" style="background: grey 320px 450px;">
+												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>											
 												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</a></button> -->
+												<div style="top:20%;widht:80px;height:150px;background:white">
+													<p style="padding:20px;">Mobile Application will assure you an increment in customer’s reach exponentially as your business will be easily accessible.</p>
+												</div>
 											</div>
 										</div>
 										<!-- <div class="img-wrapper">

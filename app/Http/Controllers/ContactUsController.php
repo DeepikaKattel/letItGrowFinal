@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Mail\SendContactNotification;
 use Illuminate\Support\Facades\DB;
+Use RealRashid\SweetAlert\Facades\Alert;
 
 class ContactUsController extends Controller
 {
@@ -54,10 +55,13 @@ class ContactUsController extends Controller
             );                 
        
             Mail::to("easycarservicenepal@gmail.com")
-                ->send(new SendContactNotification($data));                      
-            return redirect()->back()->with("success", "Thank you for your response.");
+                ->send(new SendContactNotification($data)); 
+            Alert::success('Thank you!','We appreciate you valuable time.');                     
+            return redirect()->back();
+            
         } else {
-            return redirect()->back()->with("error", "There is an error");
+            Alert::error('Oops', 'There is an error');
+            return redirect()->back();
         }
     }
 
