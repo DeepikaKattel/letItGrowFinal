@@ -19,7 +19,7 @@
 }
 
 #menu #cssmenu > ul > li > a {
-    color: #116466;
+    color: black;
 }
 #menu #cssmenu ul > li > a:hover {
     color: rgba(40, 215, 226);

@@ -1186,9 +1186,9 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
  <script>
 	$(window).on('load', function() { // makes sure the whole site is loaded 
 		$('#menu').hide();
-		$('#status').fadeOut(); // will first fade out the loading animation 
-		$('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-		$('#menu').delay(1000).fadeIn('slow'); 
+		$('#status').delay(800).fadeOut(); // will first fade out the loading animation 
+		$('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+		$('#menu').delay(500).fadeIn('slow'); 
 		$('body').delay(500).css({'overflow-y':'visible'});		
 })
 	
