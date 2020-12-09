@@ -567,6 +567,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index:4;
   background-color: black;
   /* change if the mask should have another color then white */
   z-index: 99;
@@ -716,25 +717,25 @@ body {
 											<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>																						 
 
 											</div>
-											<div class="right" style="background: grey 320px 450px;">
+											<div class="right" style="background:url('/images/cardBackground.jpg') 320px 450px;">
 												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px;"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Development</a></h1>										
-												<div style="top:20%;widht:80px;height:150px;background:white">
-													<p style="padding:20px;">Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
+												<div style="top:20%;widht:80px;height:150px;background: rgba(0, 0, 0, 0.3);">
+													<p style="padding:20px;color:white">Your business can now use the digitalized platform in the form of Web Application, decreasing the resources required in an efficient manner.</p>
 												</div>
 											</div>
 										</div>										
 									</div>
 									<div class="wrapper col-lg-4 col-12 wow slideInTop">
 										<div class="card" >
-											<div class="front" style="background: url('/images/webDesign.jpg')">
+											<div class="front" style="background: url('/images/webDesign.jpg');">
 												<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>																						 
 											
 											</div>
-											<div class="right" style="background:grey 320px 450px;">
+											<div class="right" style="background:url('/images/cardBackground.jpg') 320px 450px; ">
 												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Web Design</a></h1>											
 												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</></button> -->
-												<div style="top:20%;widht:80px;height:150px;background:white">
-													<p style="padding:20px;">IT handles are considered to be smarter in this century. Let IT Grow is the best platform for you to come and acquire professional skills.</p>
+												<div style="top:20%;widht:80px;height:150px;background: rgba(0, 0, 0, 0.3);">
+													<p style="padding:20px;color:white">IT handles are considered to be smarter in this century. Let IT Grow is the best platform for you to come and acquire professional skills.</p>
 
 												</div>
 											</div>
@@ -749,11 +750,11 @@ body {
 											<div class="front" style="background: url('/images/mobileApplication.jpg')">
 												<h1 style="color:white;margin:20px;top:50%;font-size:20px;font-weight:bolder;width:300px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>																						 
 											</div>
-											<div class="right" style="background: grey 320px 450px;">
+											<div class="right" style="background: url('/images/cardBackground.jpg')320px 450px;">
 												<h1 style="color:white;margin:20px;font-size:20px;font-weight:bolder;width:400px"><a href="#about" style="text-decoration:none;cursor:pointer;color:white">Mobile Application</a></h1>											
 												<!-- <button><a href="#about" style="text-decoration:none;cursor:pointer;color:black">Read More</a></button> -->
-												<div style="top:20%;widht:80px;height:150px;background:white">
-													<p style="padding:20px;">Mobile Application will assure you an increment in customer’s reach exponentially as your business will be easily accessible.</p>
+												<div style="top:20%;widht:80px;height:150px;background: rgba(0, 0, 0, 0.3);">
+													<p style="padding:20px;color:white">Mobile Application will assure you an increment in customer’s reach exponentially as your business will be easily accessible.</p>
 												</div>
 											</div>
 										</div>
