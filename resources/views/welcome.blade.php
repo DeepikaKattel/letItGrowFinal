@@ -639,7 +639,7 @@ body {
                             <!-- <img src="{{asset('images/logo.png')}}"class="wow fadeIn"style="height:200px;width:500px;box-shadow:2px 2px 2px 2px"/> -->
 							
 								
-								<h1 class="row wow slideInLeft" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;background: rgba(0, 0, 0, 0.1);width:280px;padding:40px;">Let <span style="color:white">IT</span>Grow</h1>
+								<h1 class="row wow slideInRight" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;background: rgba(0, 0, 0, 0.1);width:280px;padding:20px;margin-left:0px;">Let <span style="color:white">IT</span>Grow</h1>
 								<h4 class="wow fadeInUp" data-wow-delay="2s" data-wow-duration="3.5s" style="color:black">Your Enterprise...</h4>					
 									
 							
