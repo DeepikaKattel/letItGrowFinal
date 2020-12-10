@@ -53,7 +53,7 @@ class CareerController extends Controller
             $fileName = $cv->getClientOriginalExtension();
             $destination_path = public_path("careerCV/");
             $cv->move($destination_path, $fileName);
-            $career->cv = 'careerCV/' . $fileName;
+            $career->cv = $fileName;
         }
         $career->save();
         $careerSave = $career->save();

@@ -35,6 +35,11 @@ class SendMail extends Mailable
     {
         return $this->subject('Someone Wants to Contact')
             ->view('mail.career')->with('data', $this->data);
+            // ->attach($this->data['cv']->getRealPath(),
+            //     [
+            //         'as' => $this->data['cv']->getClientOriginalName(),
+            //         'mime' => $this->data['cv']->getClientMimeType(),
+            //     ]);
         // ->attach($this->data['cv']->getRealPath(),
         // [
         //     'as' => $this->data['cv']->getOriginalClientName(),

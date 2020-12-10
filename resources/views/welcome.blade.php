@@ -114,6 +114,8 @@
     justify-content:center; /* added */
 }
 
+
+
 .node {
     display: inline-block;
     text-align: center;   
@@ -589,6 +591,22 @@ body {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.header-top {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  background: #333;
+  padding: 30px;
+}
 
 </style>
 </head>
@@ -620,8 +638,12 @@ body {
                             <!-- <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s" >We build designs from your imagination</h4> -->                            
                             <!-- <img src="{{asset('images/logo.png')}}"class="wow fadeIn"style="height:200px;width:500px;box-shadow:2px 2px 2px 2px"/> -->
 							
-								<h1 class="hero-lead wow slideInLeft" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;">Let <span style="color:white">IT</span>Grow</h1>
-								<h4 class="wow slideInRight" data-wow-duration="2.5s" style="color:white">Your Enterprise...</h4>
+								
+								<h1 class="row wow slideInLeft" data-wow-duration="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;background: rgba(0, 0, 0, 0.1);width:280px;padding:40px;">Let <span style="color:white">IT</span>Grow</h1>
+								<h4 class="wow fadeInUp" data-wow-delay="2s" data-wow-duration="3.5s" style="color:black">Your Enterprise...</h4>					
+									
+							
+								
 								<!-- <figure class="swing">
 									<img src="{{asset('images/logo_original.png')}}" width="300" >
 								</figure>   -->
@@ -1194,6 +1216,12 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 })
 	
  </script>
+   <!-- Animations init-->
+  <script>
+        new WOW().init();
+    </script>
 </div>
+
+ 
 </body>
 </html>

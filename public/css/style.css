@@ -501,7 +501,7 @@ header .wrap-header {
 
 .main-header .scroller {
     bottom: 105px;
-    color: white;
+    color: black;
     display: inline-block;
     font-size: 30px;
     left: 0;
@@ -516,21 +516,21 @@ header .wrap-header {
     text-decoration: none;
 }
 .main-header .scroller:hover {
-    color: #ebebeb;
+    color: white;
 }
 .main-header .scroller:hover .scroller-text {
     opacity: 1;
     transform: translateY(-10px);
 }
 .main-header .scroller:hover .scroller-button {
-    border: 2px solid #ebebeb;
+    border: 2px solid #1f4979;
 }
 .main-header .scroller .scroller-text {
     display: block;
     font-size: 15px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #ececec;
+    color: white;
     -webkit-transform: translateY(5px);
     -ms-transform: translateY(5px);
     transform: translateY(5px);
@@ -539,7 +539,7 @@ header .wrap-header {
     transition: all 0.3s;
 }
 .main-header .scroller .scroller-button {
-    border: 2px solid rgba(235, 235, 235, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 8px 3px 5px;
     border-radius: 40px;
@@ -1045,10 +1045,11 @@ article .entry-header .entry-meta a:hover {
     position: relative;
     width: 100%;
     height: 100vh;
+    margin-top: 80px;
     /* padding-top: 100px; */
-    background: url(../images/backgroundWelcom.jpg);
+    background: url(../images/backgroundWelcom3.PNG);
     background-size: cover;
-    background-position: top 80px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
