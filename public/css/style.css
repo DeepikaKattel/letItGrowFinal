@@ -1843,6 +1843,9 @@ button:hover {
         transform: scale(0.89);
     }
 }
+.main-header .hero-content-wrapper .hero-content .col-12 {
+    top: 30%;
+}
 .main-header .hero-content-wrapper .hero-content .col-12 img {
     height: 80vh;
 }
@@ -1860,6 +1863,9 @@ button:hover {
     }
     .main-header .hero-content-wrapper .hero-content .col-12 img {
         height: 40vh;
+    }
+    .main-header .hero-content-wrapper .hero-content .col-12 {
+        top: 0%;
     }
     .main-header .hero-content-wrapper .hero-content .row img {
         height: 4vh;

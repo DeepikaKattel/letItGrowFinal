@@ -637,7 +637,7 @@ body {
                         <div class="hero-content">
                             <!-- <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s" >We build designs from your imagination</h4>  background: rgba(0, 0, 0, 0.6);--->                          
                             	
-								<div class="col-lg-3 col-12" style="top:8%;">
+								<div class="col-lg-3 col-12">
 									<h1 class="row wow slideInLeft" data-wow-duration="2s"  data-wow-delay="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;width:280px;padding:20px;font-size:40px;font-family:Helvetica">Let<span style="color:white"> IT</span>Grow</h1>
 									<h4 class="wow fadeInUp" data-wow-delay="3s" data-wow-duration="3s" style="color:black">Your Enterprise...</h4>					
 								</div>
