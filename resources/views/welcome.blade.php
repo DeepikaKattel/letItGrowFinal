@@ -637,22 +637,22 @@ body {
                         <div class="hero-content">
                             <!-- <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s" >We build designs from your imagination</h4>  background: rgba(0, 0, 0, 0.6);--->                          
                             	
-								<div class="col-lg-3 col-12">
-									<h1 class="row wow slideInLeft" data-wow-duration="2s"  data-wow-delay="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;width:280px;padding:20px;font-size:40px;font-family:Helvetica">Let<span style="color:white"> IT</span>Grow</h1>
-									<h4 class="wow fadeInUp" data-wow-delay="3s" data-wow-duration="3s" style="color:black">Your Enterprise...</h4>					
+								 <div class="col-lg-3 col-12">
+									<h1 class="row wow slideInLeft" data-wow-duration="3s"  data-wow-delay="2s" style="text-shadow:4px 5px 5px #dae2e3;color:#116466;width:280px;padding:20px;font-size:40px;font-family:Helvetica">Let<span style="color:white"> IT</span>Grow</h1>
+									<h5 class="wow fadeInUp" data-wow-delay="3s" data-wow-duration="3s" style="color:black;padding:20px">Your Enterprise...</h5>					
 								</div>
-								<div class="col-lg-9 col-12" style="top:7%;">
+								 <!-- <div class="col-lg-10 col-12" style="top:7%;">
 									<img class="wow rotateInUpRight image" src="{{asset('images/backgroundWelcom1.png')}}" data-wow-duration="2s" data-wow-delay="1s"/>
-									<div class="row">
-										<img class="wow slideInRight" src="{{asset('images/node.png')}}" data-wow-duration="2s" data-wow-delay="1s" />
-										<img class="wow slideInRight" src="{{asset('images/react.png')}}" data-wow-duration="2s" data-wow-delay="2s" />
+									<div class="row">										
+										<img class="wow slideInRight" src="{{asset('images/node.png')}}" data-wow-duration="2s" data-wow-delay="1s" />								
+										<img class="wow slideInRight" src="{{asset('images/react.png')}}" data-wow-duration="2s" data-wow-delay="2s" />										
 										<img class="wow slideInRight" src="{{asset('images/python.png')}}" data-wow-duration="2s" data-wow-delay="2.5s" />
 										<img class="wow slideInRight" src="{{asset('images/laravel.png')}}" data-wow-duration="2s" data-wow-delay="3s" />
 										<img class="wow slideInRight" src="{{asset('images/asp.png')}}" data-wow-duration="2s" data-wow-delay="3.5s" />
 										<img class="wow slideInRight" src="{{asset('images/php.png')}}" data-wow-duration="2s" data-wow-delay="4s"/>
 										<img class="wow slideInRight" src="{{asset('images/flutter.png')}}" data-wow-duration="2s" data-wow-delay="4.5s"/>
 									</div>
-								</div>
+								</div>  -->
 								
 								
 								
